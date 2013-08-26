@@ -24,10 +24,10 @@
   <?php endif; ?>
 
   <div class="center-wrapper">
-    <div class="panel-col-first panel-panel">
+    <div class="panel-col-first panel-panel row-fluid span8">
       <div class="inside"><?php print $content['left']; ?></div>
     </div>
-    <div class="panel-col-last panel-panel">
+    <div class="panel-col-last panel-panel row-fluid span4">
       <div class="inside"><?php print $content['right']; ?></div>
     </div>
   </div>
