@@ -41,7 +41,6 @@
 <div class="container content-container">
 
     <div class="page">
-        <?php print $breadcrumb; ?>
 
         <?php if($page['highlighted'] OR $messages): ?>
             <div class="drupal-messages">
